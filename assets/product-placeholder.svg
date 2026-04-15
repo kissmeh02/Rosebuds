@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Product image placeholder</title>
+  <desc id="desc">Gradient placeholder card for cannabis product imagery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4338ca" />
+      <stop offset="50%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#0f766e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#bg)" />
+  <g fill="#ffffff" fill-opacity="0.9" font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="600" y="360" font-size="60" font-weight="700">Rosebud Cannabis</text>
+    <text x="600" y="425" font-size="32" font-weight="500">Product image coming soon</text>
+  </g>
+</svg>

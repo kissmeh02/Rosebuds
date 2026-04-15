@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Edible collection image">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2355cc" />
+      <stop offset="100%" stop-color="#49a988" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#g)" />
+  <rect x="245" y="168" width="420" height="250" rx="30" fill="#fff8ef" />
+  <g fill="#ff7b7b">
+    <circle cx="330" cy="244" r="28" />
+    <circle cx="410" cy="244" r="28" />
+    <circle cx="490" cy="244" r="28" />
+    <circle cx="570" cy="244" r="28" />
+    <circle cx="330" cy="330" r="28" />
+    <circle cx="410" cy="330" r="28" />
+    <circle cx="490" cy="330" r="28" />
+    <circle cx="570" cy="330" r="28" />
+  </g>
+</svg>

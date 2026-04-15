@@ -1,0 +1,26 @@
+{
+  "name": "rosebuds",
+  "version": "1.0.0",
+  "description": "Best-practice starter for improving a website.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.2.0",
+    "globals": "^17.5.0",
+    "prettier": "^3.8.3",
+    "vite": "^8.0.8"
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Edible product image">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#2d64d5"/><stop offset="100%" stop-color="#3aa485"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect x="310" y="200" width="580" height="340" rx="34" fill="#fff5ea"/>
+  <g fill="#ff7f72">
+    <circle cx="430" cy="300" r="36"/>
+    <circle cx="550" cy="300" r="36"/>
+    <circle cx="670" cy="300" r="36"/>
+    <circle cx="790" cy="300" r="36"/>
+    <circle cx="430" cy="430" r="36"/>
+    <circle cx="550" cy="430" r="36"/>
+    <circle cx="670" cy="430" r="36"/>
+    <circle cx="790" cy="430" r="36"/>
+  </g>
+</svg>

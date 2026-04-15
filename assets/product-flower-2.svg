@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Flower product image alternative">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3258d0"/><stop offset="100%" stop-color="#1c7a73"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <circle cx="900" cy="190" r="130" fill="#ffffff" fill-opacity="0.18"/>
+  <path d="M620 210c52 65 64 138 37 219-27 80-75 127-146 143 16-59 19-112 8-160-11-47-36-97-76-149 60-18 119-3 177 47z" fill="#e8ffa7"/>
+</svg>

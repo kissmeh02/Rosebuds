@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Pre-roll product image">
+  <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#4b4fd8"/><stop offset="100%" stop-color="#1f7a7d"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="url(#g)"/>
+  <rect x="260" y="360" width="700" height="68" rx="34" fill="#f5f6f8"/>
+  <rect x="290" y="380" width="620" height="28" rx="14" fill="#dcdce2"/>
+  <rect x="880" y="360" width="80" height="68" rx="34" fill="#e8c98b"/>
+</svg>

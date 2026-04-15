@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560" role="img" aria-label="Vape collection image">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5336d6" />
+      <stop offset="100%" stop-color="#148c8f" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" fill="url(#g)" />
+  <rect x="360" y="120" width="170" height="310" rx="30" fill="#101523" stroke="#ffffff" stroke-opacity="0.35"/>
+  <rect x="418" y="66" width="55" height="58" rx="12" fill="#d8e5ff" />
+  <rect x="398" y="184" width="94" height="182" rx="14" fill="#f7fbff" fill-opacity="0.8"/>
+  <circle cx="445" cy="255" r="22" fill="#7c4dff"/>
+</svg>

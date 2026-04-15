@@ -1,0 +1,1572 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0a0c14" />
+    <meta
+      name="description"
+      content="Rosebud Cannabis offers a premium Ontario cannabis shopping experience for adults 19+ with curated flower, vapes, edibles, and accessories."
+    />
+    <link rel="canonical" href="https://www.rosebudcannabis.shop/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Rosebud Cannabis | Premium Experience" />
+    <meta
+      property="og:description"
+      content="Curated cannabis shopping for Ontario adults with modern discovery, featured drops, and trusted 19+ access."
+    />
+    <meta property="og:url" content="https://www.rosebudcannabis.shop/" />
+    <meta property="og:image" content="https://www.rosebudcannabis.shop/assets/hero-product.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <title>Rosebud Cannabis | Premium Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Store",
+        "name": "Rosebud Cannabis",
+        "url": "https://www.rosebudcannabis.shop",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "ON",
+          "addressCountry": "CA"
+        },
+        "areaServed": "Ontario",
+        "description": "Ontario cannabis retailer for adults 19+."
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="topbar">
+      <div class="container topbar__content">
+        <div class="topbar__marquee" aria-live="polite">
+          <p class="topbar__message topbar__message--active">
+            Free delivery on orders over $75 | Toronto same-day zones
+          </p>
+          <p class="topbar__message">Ontario adults 19+ | Licensed retail</p>
+          <p class="topbar__message">New drops every Friday | Join the list</p>
+        </div>
+        <div class="topbar__actions">
+          <a href="#contact">Need help?</a>
+          <button
+            id="theme-toggle"
+            class="theme-toggle"
+            type="button"
+            aria-label="Toggle color theme"
+          >
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <circle cx="12" cy="12" r="5" />
+              <path
+                d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="age-gate" id="age-gate" aria-modal="true" role="dialog" aria-labelledby="age-title">
+      <div class="age-gate__card">
+        <div class="age-gate__brand">
+          <span class="brand__mark brand__mark--lg">R</span>
+          <span class="age-gate__name">Rosebud Cannabis</span>
+        </div>
+        <p class="eyebrow">Ontario | Licensed Retail</p>
+        <h1 id="age-title">Welcome to Rosebud</h1>
+        <p>
+          You must be 19 years of age or older to enter this site. By entering, you confirm you meet
+          the legal age requirement in Ontario.
+        </p>
+        <div class="age-gate__actions">
+          <button id="confirm-age-btn" class="btn btn--primary btn--lg" type="button">
+            Yes, I'm 19+
+          </button>
+          <button id="decline-age-btn" class="btn btn--ghost" type="button">
+            No, take me back
+          </button>
+        </div>
+        <p class="age-gate__fine">
+          By entering you agree to our Terms of Service and Privacy Policy
+        </p>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container nav">
+        <a href="#" class="brand" aria-label="Rosebud Cannabis home">
+          <span class="brand__mark">R</span>
+          <span class="brand__text">Rosebud</span>
+        </a>
+        <button
+          id="nav-toggle"
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+        >
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+          <span class="nav-toggle__bar"></span>
+        </button>
+        <nav aria-label="Primary navigation">
+          <ul id="site-navigation" class="nav__links">
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#effects">By Effect</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#learn">Learn</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </nav>
+        <div class="nav__right">
+          <a href="#shop" class="btn btn--primary nav__cta">Shop Now</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero__particles" id="hero-particles" aria-hidden="true"></div>
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Premium Cannabis Retail</p>
+            <h1 class="hero__title">
+              Elevate your <span class="text-gradient">cannabis</span> experience
+            </h1>
+            <p class="hero__text">
+              Ontario's most curated selection of craft flower, premium vapes, precision edibles,
+              and essential accessories. Delivered to your door.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary btn--lg" href="#shop">
+                Explore the Menu
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2.5"
+                >
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a class="btn btn--glass" href="#effects">Shop by Effect</a>
+            </div>
+            <div class="hero__trust">
+              <div class="hero__trust-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                <span>Licensed &amp; Compliant</span>
+              </div>
+              <div class="hero__trust-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M12 6v6l4 2" />
+                </svg>
+                <span>Same-Day Delivery</span>
+              </div>
+              <div class="hero__trust-item">
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  />
+                </svg>
+                <span>Curated Quality</span>
+              </div>
+            </div>
+          </div>
+          <div class="hero__panel reveal reveal--delay" aria-hidden="true">
+            <div class="hero__panel-glow"></div>
+            <p class="eyebrow">This week's pick</p>
+            <h2>Velvet Citrus</h2>
+            <p class="hero__panel-strain">Sativa-Dominant Hybrid</p>
+            <img
+              class="hero__image"
+              src="./assets/hero-product.svg"
+              alt="Featured cannabis collection"
+              loading="eager"
+            />
+            <div class="hero__panel-stats">
+              <div class="hero__panel-stat">
+                <span class="hero__panel-stat-value">28%</span>
+                <span class="hero__panel-stat-label">THC</span>
+              </div>
+              <div class="hero__panel-stat">
+                <span class="hero__panel-stat-value">3.5g</span>
+                <span class="hero__panel-stat-label">Weight</span>
+              </div>
+              <div class="hero__panel-stat">
+                <span class="hero__panel-stat-value">$36.99</span>
+                <span class="hero__panel-stat-label">Price</span>
+              </div>
+            </div>
+            <div class="hero__panel-terps">
+              <span class="hero__panel-terp">Limonene</span>
+              <span class="hero__panel-terp">Myrcene</span>
+              <span class="hero__panel-terp">Caryophyllene</span>
+            </div>
+            <a href="#shop" class="btn btn--primary btn--full">Add to Cart</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS BANNER -->
+      <section class="stats-banner">
+        <div class="container stats-banner__grid">
+          <article class="stats-banner__item reveal">
+            <h2 class="stats-banner__number" data-count="500">0</h2>
+            <p>Products Available</p>
+          </article>
+          <article class="stats-banner__item reveal">
+            <h2 class="stats-banner__number" data-count="15">0</h2>
+            <p>Premium Brands</p>
+          </article>
+          <article class="stats-banner__item reveal">
+            <h2 class="stats-banner__number" data-count="4">0</h2>
+            <p>Delivery Zones</p>
+          </article>
+          <article class="stats-banner__item reveal">
+            <h2 class="stats-banner__number" data-count="98">0</h2>
+            <p>% Satisfaction</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- SHOP BY EFFECT -->
+      <section class="section" id="effects">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Discover your vibe</p>
+            <h2>Shop by Effect</h2>
+            <p class="section__subtitle">
+              Not sure what you want? Start with how you want to feel.
+            </p>
+          </div>
+          <div class="effects-grid">
+            <a href="#shop" class="effect-card effect-card--energize reveal" data-effect="energize">
+              <div class="effect-card__icon">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="12" cy="12" r="5" />
+                  <path
+                    d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"
+                  />
+                </svg>
+              </div>
+              <h3>Energize</h3>
+              <p>Uplifting sativa strains for creativity and focus</p>
+              <span class="effect-card__tag">Sativa-dominant</span>
+            </a>
+            <a href="#shop" class="effect-card effect-card--relax reveal" data-effect="relax">
+              <div class="effect-card__icon">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+                </svg>
+              </div>
+              <h3>Relax</h3>
+              <p>Calming indica strains for unwinding after a long day</p>
+              <span class="effect-card__tag">Indica-dominant</span>
+            </a>
+            <a href="#shop" class="effect-card effect-card--balance reveal" data-effect="balance">
+              <div class="effect-card__icon">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01" />
+                </svg>
+              </div>
+              <h3>Balance</h3>
+              <p>Hybrid blends for the perfect middle ground</p>
+              <span class="effect-card__tag">1:1 Hybrid</span>
+            </a>
+            <a href="#shop" class="effect-card effect-card--recover reveal" data-effect="recover">
+              <div class="effect-card__icon">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"
+                  />
+                </svg>
+              </div>
+              <h3>Recover</h3>
+              <p>CBD-rich options for wellness and relief</p>
+              <span class="effect-card__tag">CBD-dominant</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- COLLECTIONS -->
+      <section class="section section--tint" id="collections">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Shop by collection</p>
+            <h2>Curated for Every Preference</h2>
+          </div>
+          <div class="collection-grid">
+            <article class="collection-card collection-card--one reveal">
+              <div class="collection-card__content">
+                <span class="collection-card__badge">Most Popular</span>
+                <h3>Flower</h3>
+                <p>Craft flower, value picks, and limited drops from Ontario's best growers.</p>
+                <a href="#shop" class="btn btn--glass btn--sm">Explore Flower</a>
+              </div>
+              <img
+                class="collection-card__image"
+                src="./assets/collection-flower.svg"
+                alt="Flower product collection"
+                loading="lazy"
+              />
+            </article>
+            <article class="collection-card collection-card--two reveal">
+              <div class="collection-card__content">
+                <span class="collection-card__badge">Top Rated</span>
+                <h3>Vapes &amp; Carts</h3>
+                <p>Premium hardware and quality cartridges for smooth, consistent sessions.</p>
+                <a href="#shop" class="btn btn--glass btn--sm">Explore Vapes</a>
+              </div>
+              <img
+                class="collection-card__image"
+                src="./assets/collection-vape.svg"
+                alt="Vape product collection"
+                loading="lazy"
+              />
+            </article>
+            <article class="collection-card collection-card--three reveal">
+              <div class="collection-card__content">
+                <span class="collection-card__badge">New Arrivals</span>
+                <h3>Edibles &amp; More</h3>
+                <p>Precision-dosed edibles, topicals, and essential accessories.</p>
+                <a href="#shop" class="btn btn--glass btn--sm">Explore Edibles</a>
+              </div>
+              <img
+                class="collection-card__image"
+                src="./assets/collection-edible.svg"
+                alt="Edible and accessory collection"
+                loading="lazy"
+              />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRODUCT CATALOG -->
+      <section class="section" id="shop">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">Product catalog</p>
+            <h2>Shop the Full Menu</h2>
+          </div>
+          <div class="catalog-controls reveal" role="search">
+            <div class="quick-filters" aria-label="Quick category filters">
+              <button class="quick-filter-btn" type="button" data-category="all">All</button>
+              <button class="quick-filter-btn" type="button" data-category="flower">Flower</button>
+              <button class="quick-filter-btn" type="button" data-category="pre-rolls">
+                Pre-rolls
+              </button>
+              <button class="quick-filter-btn" type="button" data-category="vapes">Vapes</button>
+              <button class="quick-filter-btn" type="button" data-category="edibles">
+                Edibles
+              </button>
+              <button class="quick-filter-btn" type="button" data-category="accessories">
+                Accessories
+              </button>
+            </div>
+            <label class="field">
+              <span>Search</span>
+              <div class="field__input-wrap">
+                <svg
+                  class="field__icon"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <circle cx="11" cy="11" r="8" />
+                  <path d="M21 21l-4.35-4.35" />
+                </svg>
+                <input
+                  id="search-input"
+                  type="search"
+                  placeholder="Search products, brands, or effects..."
+                />
+              </div>
+            </label>
+            <label class="field">
+              <span>Category</span>
+              <select id="category-select">
+                <option value="all">All categories</option>
+                <option value="flower">Flower</option>
+                <option value="pre-rolls">Pre-rolls</option>
+                <option value="vapes">Vapes</option>
+                <option value="edibles">Edibles</option>
+                <option value="accessories">Accessories</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Sort</span>
+              <select id="sort-select">
+                <option value="featured">Featured</option>
+                <option value="price-asc">Price: low to high</option>
+                <option value="price-desc">Price: high to low</option>
+                <option value="thc-desc">THC: high to low</option>
+              </select>
+            </label>
+          </div>
+          <div class="catalog-meta">
+            <p id="results-count">0 products</p>
+          </div>
+          <div id="product-grid" class="card-grid card-grid--products"></div>
+          <div id="empty-state" class="empty-state" hidden>
+            <p>No products match your filters. Try a different category or search term.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED -->
+      <section class="section section--tint" id="featured">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Featured this week</p>
+            <h2>Staff Picks &amp; New Drops</h2>
+            <p class="section__subtitle">
+              Hand-selected by our team for quality, value, and uniqueness.
+            </p>
+          </div>
+          <div class="featured-grid">
+            <article class="featured-card featured-card--highlight reveal">
+              <div class="featured-card__badge">Staff Pick</div>
+              <div class="featured-card__content">
+                <p class="feature-card__label">Flower | Sativa</p>
+                <h3>Velvet Citrus</h3>
+                <p>
+                  Balanced aroma profile with bright citrus top notes and an exceptionally smooth
+                  finish. Our top seller three weeks running.
+                </p>
+                <div class="featured-card__terps">
+                  <span class="terp-pill terp-pill--limonene">Limonene</span>
+                  <span class="terp-pill terp-pill--myrcene">Myrcene</span>
+                  <span class="terp-pill terp-pill--caryophyllene">Caryophyllene</span>
+                </div>
+                <div class="featured-card__details">
+                  <span>28% THC</span>
+                  <span>3.5g</span>
+                  <span>$36.99</span>
+                  <span class="ontario-badge">Ontario Grown</span>
+                </div>
+                <a href="#shop" class="btn btn--primary btn--sm">View Product</a>
+              </div>
+            </article>
+            <article class="featured-card reveal">
+              <div class="featured-card__badge featured-card__badge--new">New</div>
+              <div class="featured-card__content">
+                <p class="feature-card__label">Vape | Indica</p>
+                <h3>Nightfall Cart 1g</h3>
+                <p>
+                  Premium hardware with full-spectrum flavor output for consistent evening sessions.
+                </p>
+                <div class="featured-card__terps">
+                  <span class="terp-pill terp-pill--linalool">Linalool</span>
+                  <span class="terp-pill terp-pill--myrcene">Myrcene</span>
+                </div>
+                <div class="featured-card__details">
+                  <span>87% THC</span>
+                  <span>1g</span>
+                  <span>$44.99</span>
+                </div>
+                <a href="#shop" class="btn btn--glass btn--sm">View Product</a>
+              </div>
+            </article>
+            <article class="featured-card reveal">
+              <div class="featured-card__badge featured-card__badge--drop">Limited</div>
+              <div class="featured-card__content">
+                <p class="feature-card__label">Flower | Hybrid</p>
+                <h3>Midnight Garden</h3>
+                <p>
+                  Rare small-batch hybrid with floral and earthy undertones. Limited availability.
+                </p>
+                <div class="featured-card__terps">
+                  <span class="terp-pill terp-pill--terpinolene">Terpinolene</span>
+                  <span class="terp-pill terp-pill--pinene">Pinene</span>
+                  <span class="terp-pill terp-pill--linalool">Linalool</span>
+                </div>
+                <div class="featured-card__details">
+                  <span>24% THC</span>
+                  <span>3.5g</span>
+                  <span>$42.99</span>
+                  <span class="ontario-badge">Ontario Grown</span>
+                </div>
+                <a href="#shop" class="btn btn--glass btn--sm">View Product</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEARN / EDUCATION -->
+      <section class="section section--tint" id="learn">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Cannabis education</p>
+            <h2>Learn Before You Buy</h2>
+            <p class="section__subtitle">Make informed choices with our quick guides.</p>
+          </div>
+          <div class="learn-grid">
+            <!-- TERPENE GUIDE -->
+            <article class="learn-card reveal" id="guide-terpenes">
+              <div class="learn-card__icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+              </div>
+              <h3>Terpene Guide</h3>
+              <p>Understand the aromatics that shape your experience.</p>
+              <button class="learn-card__link" type="button" data-guide="terpenes">
+                Read the guide &rarr;
+              </button>
+              <div class="learn-card__expand" id="guide-terpenes-content" hidden>
+                <div class="guide-content">
+                  <h4>What Are Terpenes?</h4>
+                  <p>
+                    Terpenes are aromatic compounds found in cannabis (and many other plants) that
+                    give each strain its unique smell and flavor. More importantly, they influence
+                    the effects you feel — a concept known as the <strong>entourage effect</strong>.
+                  </p>
+
+                  <div class="terp-grid">
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--limonene">Limonene</span>
+                        <span class="terp-detail__aroma">Citrus, Lemon</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 85%"></div>
+                      </div>
+                      <p>
+                        Uplifting and stress-relieving. Found in citrus fruits. Often associated
+                        with elevated mood and anti-anxiety properties.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Velvet Citrus, Sunrise Haze Cart
+                      </p>
+                    </div>
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--myrcene">Myrcene</span>
+                        <span class="terp-detail__aroma">Earthy, Musky</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 92%"></div>
+                      </div>
+                      <p>
+                        The most common cannabis terpene. Promotes relaxation and sedation. Also
+                        found in mangoes, hops, and lemongrass.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Lavender Kush, Nightfall Cart, Midnight Garden
+                      </p>
+                    </div>
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--caryophyllene">Caryophyllene</span>
+                        <span class="terp-detail__aroma">Spicy, Peppery</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 70%"></div>
+                      </div>
+                      <p>
+                        The only terpene that binds to CB2 receptors. Known for anti-inflammatory
+                        properties. Found in black pepper and cloves.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Velvet Citrus, Emerald Coast, OG Classic
+                      </p>
+                    </div>
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--linalool">Linalool</span>
+                        <span class="terp-detail__aroma">Floral, Lavender</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 65%"></div>
+                      </div>
+                      <p>
+                        Calming and sedating. The same terpene that makes lavender relaxing. Useful
+                        for anxiety and sleep support.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Lavender Kush, Nightfall Cart, Midnight Garden
+                      </p>
+                    </div>
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--pinene">Pinene</span>
+                        <span class="terp-detail__aroma">Pine, Fresh</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 60%"></div>
+                      </div>
+                      <p>
+                        Promotes alertness and memory retention. The most common terpene in nature —
+                        it's what makes forests smell fresh.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Pine Mist, Emerald Coast, Midnight Garden
+                      </p>
+                    </div>
+                    <div class="terp-detail">
+                      <div class="terp-detail__header">
+                        <span class="terp-pill terp-pill--terpinolene">Terpinolene</span>
+                        <span class="terp-detail__aroma">Herbal, Floral</span>
+                      </div>
+                      <div class="terp-detail__bar">
+                        <div class="terp-detail__fill" style="width: 50%"></div>
+                      </div>
+                      <p>
+                        Complex and nuanced. Mildly sedating with uplifting properties. Found in
+                        nutmeg, tea tree, and cumin.
+                      </p>
+                      <p class="terp-detail__found">
+                        <strong>Found in:</strong> Midnight Garden, Velvet Citrus
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- DOSING GUIDE -->
+            <article class="learn-card reveal" id="guide-dosing">
+              <div class="learn-card__icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M18 20V10M12 20V4M6 20v-6" />
+                </svg>
+              </div>
+              <h3>Dosing 101</h3>
+              <p>Find the right amount for a comfortable experience.</p>
+              <button class="learn-card__link" type="button" data-guide="dosing">
+                Read the guide &rarr;
+              </button>
+              <div class="learn-card__expand" id="guide-dosing-content" hidden>
+                <div class="guide-content">
+                  <h4>Start Low, Go Slow</h4>
+                  <p>
+                    The golden rule of cannabis dosing. Everyone's tolerance is different, and it's
+                    always easier to take more than to undo too much.
+                  </p>
+
+                  <div class="dose-grid">
+                    <div class="dose-card dose-card--micro">
+                      <h5>Microdose</h5>
+                      <div class="dose-card__amount">1–2.5mg THC</div>
+                      <p>
+                        Subtle mood lift without impairment. Great for beginners, daytime use, or
+                        productivity. You might not "feel" much — that's the point.
+                      </p>
+                      <p class="dose-card__try">
+                        <strong>Try:</strong> Focus Mint Drops (1mg/drop)
+                      </p>
+                    </div>
+                    <div class="dose-card dose-card--low">
+                      <h5>Low Dose</h5>
+                      <div class="dose-card__amount">2.5–5mg THC</div>
+                      <p>
+                        Mild euphoria and relaxation. Good for social settings, light anxiety
+                        relief, or winding down. Most people feel something at this range.
+                      </p>
+                      <p class="dose-card__try">
+                        <strong>Try:</strong> Berry Calm Gummies (2.5mg/pc)
+                      </p>
+                    </div>
+                    <div class="dose-card dose-card--moderate">
+                      <h5>Moderate</h5>
+                      <div class="dose-card__amount">5–15mg THC</div>
+                      <p>
+                        Stronger euphoria and body effects. Recommended for regular users.
+                        Impairment is likely — don't drive.
+                      </p>
+                      <p class="dose-card__try"><strong>Try:</strong> Mango Bliss Chews (5mg/pc)</p>
+                    </div>
+                    <div class="dose-card dose-card--strong">
+                      <h5>Strong</h5>
+                      <div class="dose-card__amount">15–30mg+ THC</div>
+                      <p>
+                        Intense effects. Only for experienced users with established tolerance.
+                        Onset for edibles: 30min–2hrs.
+                      </p>
+                      <p class="dose-card__try"><strong>Try:</strong> Consult our team first</p>
+                    </div>
+                  </div>
+
+                  <div class="dose-tip">
+                    <strong>Edible timing tip:</strong> Edibles take 30 minutes to 2 hours to kick
+                    in. Wait at least 2 hours before taking more. Inhaled products (flower, vapes)
+                    are felt within minutes.
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <!-- STRAIN GUIDE -->
+            <article class="learn-card reveal" id="guide-strains">
+              <div class="learn-card__icon">
+                <svg
+                  width="28"
+                  height="28"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"
+                  />
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+                  <circle cx="12" cy="17" r=".5" />
+                </svg>
+              </div>
+              <h3>Indica vs Sativa vs Hybrid</h3>
+              <p>What the labels really mean and how to choose.</p>
+              <button class="learn-card__link" type="button" data-guide="strains">
+                Read the guide &rarr;
+              </button>
+              <div class="learn-card__expand" id="guide-strains-content" hidden>
+                <div class="guide-content">
+                  <h4>Understanding Strain Types</h4>
+                  <p>
+                    While modern science shows the indica/sativa distinction is more nuanced than
+                    simple categories, these labels remain useful shorthand for the general effects
+                    you can expect.
+                  </p>
+
+                  <div class="strain-compare">
+                    <div class="strain-type strain-type--sativa">
+                      <h5>Sativa</h5>
+                      <div class="strain-type__tag">Energizing</div>
+                      <ul>
+                        <li>Uplifting, cerebral effects</li>
+                        <li>Boosts creativity and focus</li>
+                        <li>Best for daytime use</li>
+                        <li>May increase energy</li>
+                      </ul>
+                      <p class="strain-type__best">
+                        <strong>Best for:</strong> Social events, creative projects, outdoor
+                        activities
+                      </p>
+                      <p class="strain-type__ours">
+                        <strong>Our picks:</strong> Velvet Citrus, Sunrise Haze Cart
+                      </p>
+                    </div>
+                    <div class="strain-type strain-type--hybrid">
+                      <h5>Hybrid</h5>
+                      <div class="strain-type__tag">Balanced</div>
+                      <ul>
+                        <li>Mix of mind and body effects</li>
+                        <li>Varies by specific strain</li>
+                        <li>Versatile — any time of day</li>
+                        <li>Can lean indica or sativa</li>
+                      </ul>
+                      <p class="strain-type__best">
+                        <strong>Best for:</strong> Versatile use, moderate relaxation with mental
+                        clarity
+                      </p>
+                      <p class="strain-type__ours">
+                        <strong>Our picks:</strong> Emerald Coast, Midnight Garden, Cloud Nine
+                      </p>
+                    </div>
+                    <div class="strain-type strain-type--indica">
+                      <h5>Indica</h5>
+                      <div class="strain-type__tag">Relaxing</div>
+                      <ul>
+                        <li>Calming, full-body effects</li>
+                        <li>Promotes relaxation and sleep</li>
+                        <li>Best for evening/nighttime</li>
+                        <li>May reduce pain and tension</li>
+                      </ul>
+                      <p class="strain-type__best">
+                        <strong>Best for:</strong> Winding down, sleep support, pain management
+                      </p>
+                      <p class="strain-type__ours">
+                        <strong>Our picks:</strong> Lavender Kush, Nightfall Cart, OG Classic
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="dose-tip">
+                    <strong>Pro tip:</strong> Terpene profiles are actually a better predictor of
+                    effects than indica/sativa labels. Check the terpene guide to learn which
+                    aromatics produce the effects you want.
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">What people are saying</p>
+            <h2>Trusted by Ontario Cannabis Lovers</h2>
+          </div>
+          <div class="testimonials-grid">
+            <article class="testimonial-card reveal">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <blockquote>
+                &ldquo;Best dispensary site I've used in Ontario. The terpene info on every product
+                actually helped me find what I wanted.&rdquo;
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">M</div>
+                <div>
+                  <strong>Marcus T.</strong>
+                  <span>Toronto</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <blockquote>
+                &ldquo;Same-day delivery was a game changer. Great selection and the terpene
+                breakdowns helped me find exactly what I needed.&rdquo;
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">S</div>
+                <div>
+                  <strong>Sarah K.</strong>
+                  <span>Scarborough</span>
+                </div>
+              </div>
+            </article>
+            <article class="testimonial-card reveal">
+              <div class="testimonial-card__stars" aria-label="5 out of 5 stars">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                  <path
+                    d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"
+                  />
+                </svg>
+              </div>
+              <blockquote>
+                &ldquo;The 'shop by effect' feature is genius. I'm new to cannabis and the dosing
+                guide made everything way less intimidating.&rdquo;
+              </blockquote>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">J</div>
+                <div>
+                  <strong>James R.</strong>
+                  <span>Mississauga</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEWSLETTER -->
+      <section class="section newsletter-section" id="newsletter">
+        <div class="container">
+          <div class="newsletter-card reveal">
+            <div class="newsletter-card__content">
+              <p class="eyebrow">Join the Rosebud list</p>
+              <h2>Get Early Access to Drops &amp; Deals</h2>
+              <p>
+                Be the first to know about new arrivals, limited editions, and exclusive offers.
+              </p>
+            </div>
+            <form class="newsletter-form" id="newsletter-form">
+              <div class="newsletter-form__row">
+                <input
+                  type="email"
+                  placeholder="Enter your email"
+                  required
+                  aria-label="Email address"
+                />
+                <button type="submit" class="btn btn--primary">Subscribe</button>
+              </div>
+              <p class="newsletter-form__note">Join 2,400+ subscribers. Unsubscribe anytime.</p>
+              <p id="newsletter-status" class="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORE LOCATOR -->
+      <section class="section section--tint" id="store-locator">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Find us</p>
+            <h2>Visit Our Store</h2>
+          </div>
+          <div class="locator-grid">
+            <div class="locator-map reveal">
+              <div class="locator-map__embed">
+                <div class="locator-map__placeholder">
+                  <svg
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  <p>Interactive map loads here</p>
+                  <p class="locator-map__note">Replace with Google Maps or Mapbox embed</p>
+                </div>
+              </div>
+            </div>
+            <div class="locator-details reveal">
+              <div class="locator-store">
+                <h3>Rosebud Cannabis</h3>
+                <span class="locator-store__status locator-store__status--open">Open Now</span>
+                <div class="locator-store__info">
+                  <div class="contact-info__item">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    >
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                      <circle cx="12" cy="10" r="3" />
+                    </svg>
+                    <span
+                      >Toronto, Ontario<br /><em style="font-size: 0.85em; color: var(--text-muted)"
+                        >ADD-STORE-ADDRESS</em
+                      ></span
+                    >
+                  </div>
+                  <div class="contact-info__item">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    >
+                      <path
+                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"
+                      />
+                    </svg>
+                    <span>(416) 555-ROSE</span>
+                  </div>
+                  <div class="contact-info__item">
+                    <svg
+                      width="18"
+                      height="18"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                    >
+                      <path
+                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                      />
+                      <polyline points="22,6 12,13 2,6" />
+                    </svg>
+                    <span>hello@rosebudcannabis.shop</span>
+                  </div>
+                </div>
+
+                <h4>Hours</h4>
+                <div class="locator-hours">
+                  <div class="locator-hours__row">
+                    <span>Monday – Friday</span><span>10:00 AM – 9:00 PM</span>
+                  </div>
+                  <div class="locator-hours__row">
+                    <span>Saturday</span><span>10:00 AM – 8:00 PM</span>
+                  </div>
+                  <div class="locator-hours__row">
+                    <span>Sunday</span><span>11:00 AM – 6:00 PM</span>
+                  </div>
+                </div>
+
+                <h4>Delivery Zones</h4>
+                <div class="delivery-zones">
+                  <div class="delivery-zone">
+                    <span class="delivery-zone__name">Downtown Toronto</span>
+                    <span class="delivery-zone__time">1–2 hrs</span>
+                  </div>
+                  <div class="delivery-zone">
+                    <span class="delivery-zone__name">North York</span>
+                    <span class="delivery-zone__time">2–3 hrs</span>
+                  </div>
+                  <div class="delivery-zone">
+                    <span class="delivery-zone__name">Scarborough</span>
+                    <span class="delivery-zone__time">2–3 hrs</span>
+                  </div>
+                  <div class="delivery-zone">
+                    <span class="delivery-zone__name">Etobicoke</span>
+                    <span class="delivery-zone__time">2–4 hrs</span>
+                  </div>
+                </div>
+                <p class="delivery-zone__note">
+                  Free delivery on orders over $75. Same-day available for orders placed before 2pm.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COMPLIANCE -->
+      <section class="section" id="compliance">
+        <div class="container">
+          <div class="section__heading reveal">
+            <p class="eyebrow">Compliance &amp; Safety</p>
+            <h2>We take regulation seriously</h2>
+          </div>
+          <div class="pillars">
+            <article class="reveal">
+              <div class="pillar__icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+              </div>
+              <h3>19+ Only Access</h3>
+              <p>
+                Age verification required. We serve adults 19+ in Ontario only, in full compliance
+                with provincial regulations.
+              </p>
+            </article>
+            <article class="reveal">
+              <div class="pillar__icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"
+                  />
+                  <line x1="12" y1="9" x2="12" y2="13" />
+                  <line x1="12" y1="17" x2="12.01" y2="17" />
+                </svg>
+              </div>
+              <h3>Responsible Use</h3>
+              <p>
+                Cannabis can be impairing. Never drive or operate machinery after consumption. Store
+                safely away from children.
+              </p>
+            </article>
+            <article class="reveal">
+              <div class="pillar__icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                  <polyline points="14 2 14 8 20 8" />
+                  <line x1="16" y1="13" x2="8" y2="13" />
+                  <line x1="16" y1="17" x2="8" y2="17" />
+                  <polyline points="10 9 9 9 8 9" />
+                </svg>
+              </div>
+              <h3>No Medical Advice</h3>
+              <p>
+                Product information is for browsing only and does not replace professional medical
+                guidance.
+              </p>
+            </article>
+          </div>
+          <div class="regulatory-note reveal" role="note" aria-label="Retail authorization details">
+            <p>
+              <strong>Official cannabis retail seal:</strong> add your approved AGCO seal asset
+              here.
+            </p>
+            <p>
+              <strong>CRSA details:</strong> <span>Authorization #: <em>ADD-CRSA-NUMBER</em></span>
+              <span> | Holder name: <em>ADD-HOLDER-NAME</em></span>
+              <span> | Store name: <em>Rosebud Cannabis</em></span>
+              <span> | Address: <em>ADD-STORE-ADDRESS</em></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section section--tint" id="faq">
+        <div class="container">
+          <div class="section__heading section__heading--center reveal">
+            <p class="eyebrow">Common questions</p>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="faq-list">
+            <details class="reveal">
+              <summary>Do I need to be 19+ to purchase?</summary>
+              <p>
+                Yes. Access and purchase are restricted to adults aged 19 and older in Ontario only,
+                as required by provincial law.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>How does same-day delivery work?</summary>
+              <p>
+                Orders placed before 2pm in eligible Toronto zones qualify for same-day delivery.
+                You'll receive a tracking link once your order is dispatched. Free delivery on
+                orders over $75.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>What are terpenes and why do they matter?</summary>
+              <p>
+                Terpenes are aromatic compounds that shape the flavor and effects of each strain.
+                They work with cannabinoids to create what's known as the "entourage effect." Check
+                our <a href="#learn">Terpene Guide</a> for a detailed breakdown.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>How often is inventory updated?</summary>
+              <p>
+                Our menu updates in real-time to reflect current availability. Featured drops and
+                new arrivals are highlighted every Friday.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>Can I return a product?</summary>
+              <p>
+                Due to regulatory requirements, cannabis products cannot be returned once purchased.
+                Defective products may be eligible for exchange — contact us for details.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>What payment methods do you accept?</summary>
+              <p>
+                We accept debit, cash on delivery, and e-transfer. Credit card support is coming
+                soon.
+              </p>
+            </details>
+            <details class="reveal">
+              <summary>Are your products Ontario grown?</summary>
+              <p>
+                Many of our products are sourced from Ontario-based licensed producers. Look for the
+                "Ontario Grown" badge on product cards to find locally sourced options.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container contact-grid">
+          <div class="reveal">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Need help finding the right product?</h2>
+            <p class="hero__text">
+              Our team is here to help with product recommendations, order questions, and anything
+              else you need.
+            </p>
+            <div class="contact-info">
+              <div class="contact-info__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <span>Toronto, Ontario</span>
+              </div>
+              <div class="contact-info__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                  />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+                <span>hello@rosebudcannabis.shop</span>
+              </div>
+              <div class="contact-info__item">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <span>Mon–Sat: 10am – 9pm | Sun: 11am – 6pm</span>
+              </div>
+            </div>
+          </div>
+          <form id="contact-form" class="contact-form reveal" novalidate>
+            <label class="field">
+              <span>Name</span>
+              <input id="name-input" name="name" type="text" required />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input id="email-input" name="email" type="email" required />
+            </label>
+            <label class="field">
+              <span>Message</span>
+              <textarea
+                id="message-input"
+                name="message"
+                rows="4"
+                placeholder="Tell us what you're looking for..."
+                required
+              ></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Send Message</button>
+            <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- PRODUCT DETAIL MODAL -->
+    <div
+      class="modal"
+      id="product-modal"
+      aria-modal="true"
+      role="dialog"
+      aria-labelledby="modal-product-name"
+      hidden
+    >
+      <div class="modal__backdrop" id="modal-backdrop"></div>
+      <div class="modal__content">
+        <button
+          class="modal__close"
+          id="modal-close"
+          type="button"
+          aria-label="Close product detail"
+        >
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M18 6L6 18M6 6l12 12" />
+          </svg>
+        </button>
+        <div class="modal__grid">
+          <div class="modal__image-col">
+            <div class="modal__image-wrap">
+              <img id="modal-image" class="modal__image" src="" alt="" />
+            </div>
+          </div>
+          <div class="modal__info-col">
+            <p class="modal__category" id="modal-category"></p>
+            <h2 class="modal__name" id="modal-product-name"></h2>
+            <p class="modal__strain" id="modal-strain"></p>
+            <div class="modal__badges" id="modal-badges"></div>
+            <p class="modal__desc" id="modal-desc"></p>
+
+            <div class="modal__stats" id="modal-stats"></div>
+
+            <div class="modal__section">
+              <h4>Terpene Profile</h4>
+              <div class="modal__terps" id="modal-terps"></div>
+            </div>
+
+            <div class="modal__section">
+              <h4>Effects</h4>
+              <div class="modal__effects" id="modal-effects"></div>
+            </div>
+
+            <div class="modal__section" id="modal-pairing-section">
+              <h4>Pairs Well With</h4>
+              <div class="modal__pairings" id="modal-pairings"></div>
+            </div>
+
+            <div class="modal__footer">
+              <div class="modal__price" id="modal-price"></div>
+              <button class="btn btn--primary btn--lg btn--full" type="button">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__grid">
+          <div class="footer__brand">
+            <a href="#" class="brand">
+              <span class="brand__mark">R</span>
+              <span class="brand__text">Rosebud Cannabis</span>
+            </a>
+            <p>
+              Ontario's premium cannabis retail experience. Licensed, compliant, and curated for
+              quality.
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#shop">All Products</a></li>
+              <li><a href="#collections">Collections</a></li>
+              <li><a href="#effects">By Effect</a></li>
+              <li><a href="#featured">Featured</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="#store-locator">Store Location</a></li>
+              <li><a href="#compliance">Compliance</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4>Learn</h4>
+            <ul>
+              <li><a href="#guide-terpenes">Terpene Guide</a></li>
+              <li><a href="#guide-dosing">Dosing 101</a></li>
+              <li><a href="#guide-strains">Strain Guide</a></li>
+            </ul>
+            <h4 style="margin-top: 1rem">Connect</h4>
+            <div class="footer__social">
+              <a href="#" aria-label="Instagram" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter" class="footer__social-link">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>&copy; <span id="current-year"></span> Rosebud Cannabis. All rights reserved.</p>
+          <p>For adults 19+ only. Do not drive impaired. Ontario licensed retail.</p>
+        </div>
+      </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">
+      <svg
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2.5"
+      >
+        <path d="M18 15l-6-6-6 6" />
+      </svg>
+    </button>
+
+    <div class="mobile-cta" id="mobile-cta">
+      <a href="#shop" class="btn btn--primary btn--full">Shop Now</a>
+    </div>
+
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
