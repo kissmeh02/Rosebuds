@@ -3,10 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Rosebud Cannabis is an Ontario-licensed 19+ cannabis retailer offering curated flower, vapes, edibles, concentrates, oils, and accessories through rosebudcannabis.shop.">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Rosebud Cannabis — Ontario's Finest">
+<meta property="og:description" content="A curated cannabis boutique for Ontario adults 19+ with premium products, educational guidance, and responsible retail standards.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.rosebudcannabis.shop/">
+<meta property="og:site_name" content="Rosebud Cannabis">
+<meta name="twitter:card" content="summary_large_image">
 <title>Rosebud Cannabis — Ontario's Finest</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="canonical" href="https://www.rosebudcannabis.shop/">
 <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -25,13 +34,13 @@
   <p class="gate-text">You must be 19 years of age or older to enter this website.</p>
   <div class="gate-btns">
     <button class="btn-enter" onclick="enterSite()">I am 19 or older</button>
-    <button class="btn-exit" onclick="window.location='https://google.com'">I am under 19</button>
+    <button class="btn-exit" onclick="window.location='https://www.ontario.ca/page/cannabis-laws'">I am under 19</button>
   </div>
 </div>
 
 <!-- Nav -->
 <nav id="navbar">
-  <a href="#" class="nav-logo">
+  <a href="#home" class="nav-logo" aria-label="Rosebud Cannabis home">
     <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
       <path d="M11 19 C9 14 3 11 3 7 C3 4 7 2 11 5 C15 2 19 4 19 7 C19 11 13 14 11 19Z" fill="#d4826a"/>
     </svg>
@@ -43,7 +52,7 @@
     <li><a href="#info">Visit</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a href="https://www.rosebudcannabis.shop" target="_blank" class="nav-cta">Shop Online</a>
+  <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="nav-cta">Shop Online</a>
 </nav>
 
 <!-- Hero -->
@@ -70,7 +79,7 @@
     <h1>Where <em>nature</em><br>meets your<br>wellness.</h1>
     <p class="hero-body">A curated cannabis boutique offering premium flower, oils, edibles, and accessories — guided by knowledge, care, and the love of the plant.</p>
     <div class="hero-actions">
-      <a href="https://www.rosebudcannabis.shop" target="_blank" class="btn-primary">Shop Online</a>
+      <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="btn-primary">Shop Online</a>
       <a href="#philosophy" class="btn-ghost">Our Story</a>
     </div>
     <div class="hero-badges">
@@ -178,11 +187,11 @@
       <div class="section-label">What We Carry</div>
       <h2>The full<br><em>collection.</em></h2>
     </div>
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="btn-ghost">View all products →</a>
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="btn-ghost">View all products →</a>
   </div>
   <div class="products-grid">
     <!-- Featured -->
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="product-card product-featured">
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="product-card product-featured">
       <div class="product-featured-body">
         <div class="product-category">Featured</div>
         <div class="product-name">Premium Flower</div>
@@ -202,7 +211,7 @@
       </div>
     </a>
     <!-- Other products -->
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="product-card">
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="product-card">
       <div class="product-category">Ingestibles</div>
       <svg class="product-icon" viewBox="0 0 48 48" fill="none">
         <rect x="10" y="18" width="28" height="22" rx="3" stroke="#d4826a" stroke-width="0.8" fill="rgba(212,130,106,0.1)"/>
@@ -214,7 +223,7 @@
       <p class="product-desc">Gummies, chocolates, beverages, and more. Precise dosing for a consistent, enjoyable experience.</p>
       <div class="product-link">Browse edibles</div>
     </a>
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="product-card">
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="product-card">
       <div class="product-category">Vaporizer</div>
       <svg class="product-icon" viewBox="0 0 48 48" fill="none">
         <rect x="20" y="8" width="8" height="32" rx="4" stroke="#8aad8c" stroke-width="0.8" fill="rgba(138,173,140,0.1)"/>
@@ -227,7 +236,7 @@
       <p class="product-desc">Discreet, portable, and consistent. Distillate and live resin options from trusted brands.</p>
       <div class="product-link">Shop vapes</div>
     </a>
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="product-card">
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="product-card">
       <div class="product-category">Concentrates</div>
       <svg class="product-icon" viewBox="0 0 48 48" fill="none">
         <path d="M14 36 L24 12 L34 36Z" stroke="#c9a96e" stroke-width="0.8" fill="rgba(201,169,110,0.1)"/>
@@ -238,7 +247,7 @@
       <p class="product-desc">Hash, shatter, budder, and wax — for those who know what they want.</p>
       <div class="product-link">See concentrates</div>
     </a>
-    <a href="https://www.rosebudcannabis.shop" target="_blank" class="product-card">
+    <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="product-card">
       <div class="product-category">Wellness</div>
       <svg class="product-icon" viewBox="0 0 48 48" fill="none">
         <circle cx="24" cy="24" r="16" stroke="#d4826a" stroke-width="0.8" fill="rgba(212,130,106,0.05)"/>
@@ -257,7 +266,7 @@
   <div class="section-label" style="justify-content:center; color:rgba(26,46,31,0.6);">Ready to explore</div>
   <h2>Not sure where<br>to <em>start?</em></h2>
   <p class="section-lead">Our staff are trained to help you find exactly what you're looking for — no judgment, just good guidance.</p>
-  <a href="https://www.rosebudcannabis.shop" target="_blank" class="btn-primary">Visit our online store</a>
+  <a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" class="btn-primary">Visit our online store</a>
 </div>
 
 <!-- Info -->
@@ -293,7 +302,7 @@
     </svg>
     <div class="info-title">Get in Touch</div>
     <p class="info-text">Have a question about a product, an order, or just want to say hello? We'd love to hear from you.</p>
-    <p class="info-detail"><a href="https://www.rosebudcannabis.shop" style="color: var(--moss); text-decoration:none;">rosebudcannabis.shop</a></p>
+    <p class="info-detail"><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" style="color: var(--moss); text-decoration:none;">rosebudcannabis.shop</a></p>
   </div>
 </div>
 
@@ -371,36 +380,36 @@
     <div class="footer-col">
       <h4>Shop</h4>
       <ul>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Flower</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Pre-rolls</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Edibles</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Vapes</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Concentrates</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Accessories</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Flower</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Pre-rolls</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Edibles</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Vapes</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Concentrates</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Accessories</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h4>Learn</h4>
       <ul>
-        <li><a href="#">Cannabis 101</a></li>
-        <li><a href="#">Strain Guide</a></li>
-        <li><a href="#">Responsible Use</a></li>
-        <li><a href="#">Our Producers</a></li>
+        <li><a href="./cannabis-101.html">Cannabis 101</a></li>
+        <li><a href="./strain-guide.html">Strain Guide</a></li>
+        <li><a href="./responsible-use.html">Responsible Use</a></li>
+        <li><a href="./producers.html">Our Producers</a></li>
       </ul>
     </div>
     <div class="footer-col">
       <h4>Company</h4>
       <ul>
         <li><a href="#philosophy">About Us</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="https://www.rosebudcannabis.shop" target="_blank">Shop Online</a></li>
+        <li><a href="./careers.html">Careers</a></li>
+        <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="./terms-of-use.html">Terms of Use</a></li>
+        <li><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer">Shop Online</a></li>
       </ul>
     </div>
   </div>
   <div class="footer-bottom">
-    <p class="footer-legal">© 2025 Rosebud Cannabis. All rights reserved. Must be 19+ to purchase. Please consume responsibly.</p>
+    <p class="footer-legal">© <span id="current-year">2026</span> Rosebud Cannabis. All rights reserved. Must be 19+ to purchase. Please consume responsibly.</p>
     <div class="footer-ontario">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
         <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="0.8"/>
