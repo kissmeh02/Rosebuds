@@ -2,6 +2,9 @@
 
 Production-ready static website for Rosebud Cannabis, focused on an Ontario 19+ audience with completed content pages, legal pages, and polished storefront landing experience.
 
+GitHub repository description:
+`Rosebud Cannabis website for Ontario adults 19+ with responsive storefront landing page, legal content pages, and SEO-ready metadata.`
+
 ## What is included
 
 - Full responsive landing page (`index.html`)

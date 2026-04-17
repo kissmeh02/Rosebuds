@@ -627,22 +627,267 @@ footer {
 }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
 
-/* Mobile */
+/* Large tablets and smaller laptops */
+@media (max-width: 1200px) {
+  nav {
+    padding: 1.2rem 2rem;
+  }
+
+  section {
+    padding: 5rem 2.5rem;
+  }
+
+  .hero {
+    padding: 0 2.5rem;
+  }
+
+  .hero-illustration {
+    width: min(50vw, 560px);
+    right: -40px;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .product-featured {
+    grid-column: span 2;
+  }
+
+  footer {
+    padding: 3.5rem 2.5rem 2rem;
+  }
+}
+
+/* Tablets */
 @media (max-width: 900px) {
-  nav { padding: 1.2rem 1.5rem; }
-  .nav-links { display: none; }
-  section { padding: 4rem 1.5rem; }
-  .hero { padding: 0 1.5rem; }
-  .philosophy { grid-template-columns: 1fr; gap: 2.5rem; }
-  .philosophy-visual { height: 300px; }
-  .products-grid { grid-template-columns: 1fr; }
-  .product-featured { grid-column: span 1; grid-template-columns: 1fr; }
-  .product-featured-visual { display: none; }
-  .info-grid { grid-template-columns: 1fr; }
-  .testi-grid { grid-template-columns: 1fr; }
-  .footer-grid { grid-template-columns: 1fr 1fr; }
-  .newsletter { padding: 2.5rem 1.5rem; flex-direction: column; }
-  .newsletter-form { flex-direction: column; }
-  .newsletter-input { width: 100%; border-right: 1px solid rgba(90,122,92,0.3); border-bottom: none; }
-  footer { padding: 3rem 1.5rem 2rem; }
+  nav {
+    padding: 1.1rem 1.25rem;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-logo {
+    font-size: 1.1rem;
+  }
+
+  .nav-cta {
+    padding: 0.5rem 1.1rem;
+    font-size: 0.7rem;
+  }
+
+  section {
+    padding: 4rem 1.25rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 7rem 1.25rem 4rem;
+  }
+
+  .hero-illustration {
+    width: 70vw;
+    opacity: 0.12;
+  }
+
+  .hero-badges {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .philosophy {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .philosophy-visual {
+    height: 320px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .product-featured {
+    grid-column: span 1;
+    grid-template-columns: 1fr;
+  }
+
+  .product-featured-visual {
+    display: none;
+  }
+
+  .info-grid,
+  .testi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .newsletter {
+    padding: 2.5rem 1.25rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .newsletter-form {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  footer {
+    padding: 3rem 1.25rem 2rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 640px) {
+  nav {
+    padding: 0.9rem 1rem;
+  }
+
+  .nav-cta {
+    display: none;
+  }
+
+  .hero {
+    padding: 6.5rem 1rem 3rem;
+  }
+
+  .hero-illustration {
+    display: none;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 8.8vw, 3rem);
+  }
+
+  .hero-body {
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    width: 100%;
+  }
+
+  .btn-primary,
+  .btn-ghost {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+  }
+
+  .hero-badges {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .hero-badge {
+    flex: 1;
+    min-width: 88px;
+  }
+
+  .marquee-item {
+    padding: 0 1rem;
+    font-size: 0.65rem;
+  }
+
+  .section-label {
+    letter-spacing: 0.18em;
+  }
+
+  h2 {
+    font-size: clamp(1.7rem, 7.5vw, 2.2rem);
+  }
+
+  .philosophy-visual {
+    height: 280px;
+  }
+
+  .phi-card {
+    padding: 1.2rem;
+  }
+
+  .phi-card-1 {
+    right: 40px;
+  }
+
+  .phi-card-2 {
+    left: 40px;
+  }
+
+  .experience {
+    padding: 3.5rem 1rem;
+  }
+
+  .info-block,
+  .testi-card {
+    padding: 1.5rem 1.2rem;
+  }
+
+  .newsletter {
+    padding: 2rem 1rem;
+  }
+
+  .newsletter-form {
+    flex-direction: column;
+  }
+
+  .newsletter-input {
+    width: 100%;
+    border-right: 1px solid rgba(90,122,92,0.3);
+    border-bottom: none;
+  }
+
+  .newsletter-btn {
+    width: 100%;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 420px) {
+  .gate-btns {
+    width: 100%;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+
+  .btn-enter,
+  .btn-exit {
+    width: 100%;
+    padding: 0.7rem 1rem;
+  }
+
+  .hero-badges {
+    gap: 0.75rem;
+  }
+
+  .hero-badge-num {
+    font-size: 1.5rem;
+  }
+
+  .hero-badge-label {
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+  }
+
+  .footer-legal,
+  .footer-ontario {
+    font-size: 0.72rem;
+  }
 }
