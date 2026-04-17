@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a2e1f">
 <meta name="description" content="Rosebud Cannabis is an Ontario-licensed 19+ cannabis retailer offering curated flower, vapes, edibles, concentrates, oils, and accessories through rosebudcannabis.shop.">
 <meta name="robots" content="index,follow">
 <meta property="og:title" content="Rosebud Cannabis — Ontario's Finest">
@@ -10,13 +11,33 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.rosebudcannabis.shop/">
 <meta property="og:site_name" content="Rosebud Cannabis">
+<meta property="og:image" content="https://www.rosebudcannabis.shop/assets/hero-product.svg">
+<meta name="twitter:title" content="Rosebud Cannabis — Ontario's Finest">
+<meta name="twitter:description" content="A curated cannabis boutique for Ontario adults 19+ with premium products and trusted guidance.">
+<meta name="twitter:image" content="https://www.rosebudcannabis.shop/assets/hero-product.svg">
 <meta name="twitter:card" content="summary_large_image">
 <title>Rosebud Cannabis — Ontario's Finest</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="canonical" href="https://www.rosebudcannabis.shop/">
+<link rel="manifest" href="./site.webmanifest">
 <link rel="stylesheet" href="./styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Store",
+  "name": "Rosebud Cannabis",
+  "url": "https://www.rosebudcannabis.shop/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Ontario",
+    "addressCountry": "CA"
+  },
+  "description": "Ontario licensed cannabis retailer for adults 19+.",
+  "areaServed": "Ontario"
+}
+</script>
 </head>
 <body>
 
@@ -303,6 +324,7 @@
     <div class="info-title">Get in Touch</div>
     <p class="info-text">Have a question about a product, an order, or just want to say hello? We'd love to hear from you.</p>
     <p class="info-detail"><a href="https://www.rosebudcannabis.shop" target="_blank" rel="noopener noreferrer" style="color: var(--moss); text-decoration:none;">rosebudcannabis.shop</a></p>
+    <p class="info-detail"><a href="mailto:hello@rosebudcannabis.shop" style="color: var(--moss); text-decoration:none;">hello@rosebudcannabis.shop</a></p>
   </div>
 </div>
 
@@ -365,7 +387,7 @@
     <p>New arrivals, staff picks, and exclusive offers — delivered to your inbox.</p>
   </div>
   <form class="newsletter-form" onsubmit="handleNewsletter(event)">
-    <input class="newsletter-input" type="email" placeholder="your@email.com" id="nl-email" required>
+    <input class="newsletter-input" type="email" placeholder="your@email.com" id="nl-email" aria-label="Email address" required>
     <button class="newsletter-btn" type="submit">Subscribe</button>
   </form>
 </div>
