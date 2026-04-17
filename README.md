@@ -42,8 +42,8 @@ VITE_CONTACT_ENDPOINT=https://api.example.com/contact
 
 Notes:
 
-- `VITE_API_BASE_URL` + `VITE_PRODUCTS_ENDPOINT` are used by `script.js` to load live product feeds.
-- If API fetch fails, the site gracefully falls back to `data/products.json`.
+- `VITE_API_BASE_URL` + `VITE_PRODUCTS_ENDPOINT` are reserved for API integration if you later externalize data loading.
+- The current homepage is self-contained in `index.html` and does not fetch `data/products.json`.
 
 ## Scripts
 
@@ -58,8 +58,7 @@ Notes:
 ## Project files
 
 - `index.html` - full storefront-style page structure
-- `styles.css` - design system, responsive layout, and components
-- `script.js` - age gate, catalog filtering, mobile nav, and contact form logic
+- `styles.css` - styles used by `404.html`
 - `data/products.json` - API-ready product data source
 - `assets/product-placeholder.svg` - fallback product image
 - `docs/toronto-dispensary-web-requirements.md` - compliance + API architecture checklist

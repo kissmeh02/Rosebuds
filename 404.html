@@ -4,15 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page Not Found | Rosebud Cannabis</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        font-family: Arial, sans-serif;
+        background: #111a13;
+        color: #f5f0e8;
+      }
+      main {
+        width: min(90vw, 560px);
+        text-align: center;
+      }
+      h1 {
+        margin: 0 0 0.75rem;
+        font-size: 2rem;
+      }
+      p {
+        margin: 0 0 1.25rem;
+        color: #a8b8a9;
+      }
+      a {
+        display: inline-block;
+        text-decoration: none;
+        background: #d4826a;
+        color: #f5f0e8;
+        padding: 0.7rem 1.1rem;
+      }
+    </style>
   </head>
   <body>
-    <main class="section">
-      <div class="container">
-        <h1>Page not found</h1>
-        <p class="hero__text">The page you are looking for does not exist or has moved.</p>
-        <a class="btn btn--primary" href="./index.html">Return home</a>
-      </div>
+    <main>
+      <h1>Page not found</h1>
+      <p>The page you are looking for does not exist or has moved.</p>
+      <a href="./index.html">Return home</a>
     </main>
   </body>
 </html>
