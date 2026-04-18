@@ -54,7 +54,7 @@ Vite will print the local URL (for example `http://localhost:5173` or the next a
 
 ### Vercel
 
-This project uses [Vite](https://vitejs.dev/); the production bundle is written to `dist/`.
+This project uses [Vite](https://vitejs.dev/); the production bundle is written to `dist/`. The Vite config lists every root `*.html` file as a build entry so secondary pages (for example `/privacy-policy.html`) are emitted to `dist/` and are reachable on Vercel. Files in `public/` (including `robots.txt` and `sitemap.xml`) are copied to the output root on each build.
 
 **GitHub → Vercel (recommended):** In the [Vercel dashboard](https://vercel.com/dashboard), import this repository, set **Framework Preset** to Vite (or **Build Command** `npm run build` and **Output Directory** `dist`). Pushes to `main` trigger production deploys; pull requests get preview URLs.
 
