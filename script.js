@@ -15,6 +15,13 @@ if (ageGate && localStorage.getItem(AGE_GATE_STORAGE_KEY) === 'true') {
   ageGate.style.display = 'none';
 }
 
+document.querySelector('#age-gate .btn-enter')?.addEventListener('click', enterSite);
+document.querySelector('#age-gate .btn-exit')?.addEventListener('click', () => {
+  window.location.href = 'https://www.ontario.ca/page/cannabis-laws';
+});
+
+document.querySelector('.newsletter-form')?.addEventListener('submit', handleNewsletter);
+
 const navbar = document.getElementById('navbar');
 if (navbar) {
   window.addEventListener('scroll', () => {

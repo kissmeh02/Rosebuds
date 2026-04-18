@@ -54,8 +54,8 @@
   <div class="gate-sub">Ontario · Licensed Retailer</div>
   <p class="gate-text">You must be 19 years of age or older to enter this website.</p>
   <div class="gate-btns">
-    <button class="btn-enter" onclick="enterSite()">I am 19 or older</button>
-    <button class="btn-exit" onclick="window.location='https://www.ontario.ca/page/cannabis-laws'">I am under 19</button>
+    <button type="button" class="btn-enter">I am 19 or older</button>
+    <button type="button" class="btn-exit">I am under 19</button>
   </div>
 </div>
 
@@ -386,7 +386,7 @@
     <h3>Stay in bloom.</h3>
     <p>New arrivals, staff picks, and exclusive offers — delivered to your inbox.</p>
   </div>
-  <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+  <form class="newsletter-form">
     <input class="newsletter-input" type="email" placeholder="your@email.com" id="nl-email" aria-label="Email address" required>
     <button class="newsletter-btn" type="submit">Subscribe</button>
   </form>
